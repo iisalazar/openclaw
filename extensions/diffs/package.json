@@ -5,7 +5,7 @@
   "description": "OpenClaw diff viewer plugin",
   "type": "module",
   "scripts": {
-    "build:viewer": "bun build src/viewer-client.ts --target browser --format esm --minify --outfile assets/viewer-runtime.js"
+    "build:viewer": "node api.js && bun build src/viewer-client.ts --target browser --format esm --minify --outfile assets/viewer-runtime.js"
   },
   "dependencies": {
     "@pierre/diffs": "1.0.11",

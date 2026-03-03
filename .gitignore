@@ -1,6 +1,5 @@
 node_modules
 **/node_modules/
-.env
 docker-compose.extra.yml
 dist
 pnpm-lock.yaml
@@ -27,6 +26,7 @@ mise.toml
 apps/android/.gradle/
 apps/android/app/build/
 apps/android/.cxx/
+apps/android/.kotlin/
 
 # Bun build artifacts
 *.bun-build
@@ -120,3 +120,6 @@ dist/protocol.schema.json
 
 # Synthing
 **/.stfolder/
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
